@@ -386,7 +386,7 @@ GROUP BY role
 5. SELECT
 6. DISTINCT
 7. ORDER BY
-8. LIMIT` / OFFSET
+8. LIMIT / OFFSET
 ```
 
 1. Find the number of movies each director has directed.
