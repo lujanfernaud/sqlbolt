@@ -1,6 +1,6 @@
 # SQLBolt
 
-Practising SQL on [sqlbolt.com](https://sqlbolt.com).
+SQL exercises from [sqlbolt.com](https://sqlbolt.com).
 
 ## Index
 
@@ -378,14 +378,16 @@ GROUP BY role
 
 ## 12. Order of Execution of a Query
 
-> 1. `FROM` and `JOIN`s
-2. `WHERE`
-3. `GROUP BY`
-4. `HAVING`
-5. `SELECT`
-6. `DISTINCT`
-7. `ORDER BY`
-8. `LIMIT` / `OFFSET`
+```
+1. FROM and JOINs
+2. WHERE
+3. GROUP BY
+4. HAVING
+5. SELECT
+6. DISTINCT
+7. ORDER BY
+8. LIMIT` / OFFSET
+```
 
 1. Find the number of movies each director has directed.
 
@@ -479,11 +481,9 @@ DELETE FROM movies
 
 1. Create a new table named Database with the following columns:
 
-   – Name A string (text) describing the name of the database
-   – Version A number (floating point) of the latest version of this database
-   – Download_count An integer count of the number of times this database was downloaded
-
-This table has no constraints.
+   - Name A string (text) describing the name of the database
+   - Version A number (floating point) of the latest version of this database
+   - Download_count An integer count of the number of times this database was downloaded
 
 ```sql
 CREATE TABLE IF NOT EXISTS database (
